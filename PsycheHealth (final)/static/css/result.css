@@ -1,0 +1,212 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+a{
+  color:#FFFFF7;
+}
+
+.but {
+  margin: 250px auto 150px auto;
+ 
+}
+button {
+  height: 28px;
+  width: 100px;
+}
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+  margin-left: 45px;
+  color: #E8E8E8 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #09111d;
+}
+
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: #f7fafa;
+  }
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.particles{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    padding: 0.20px;
+}
+.particles span {
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    -100px 0 #4fc3dc99,
+    100px 0 #ff2d7599;
+    margin: 0 4px;
+    border-radius: 50%;
+    animation: animate 0s ease infinite;
+    animation-duration: calc(125s/var(--i));
+
+}
+.particles span :nth-child(even){
+
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    -100px 0 #4fc3dc99,
+    100px 0 #4fc3dc99;
+}
+@keyframes animate {
+
+    0% {
+        transform:translateY(120vh) scale(0) rotate(0deg) ;
+
+    }
+    20% {
+        transform:translateY(100vh) scale(1) rotate(0deg) ;
+
+    }
+    100% {
+        transform:translateY(-50vh) scale(0.5) rotate(360deg) ;
+
+    }
+}
+.button-13 {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 0px  0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+  }
+  
+  .button-13:hover {
+    background-color: #f7fafa;
+  }
+  
+  .button-13:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+      
+  #myNavbar{
+    position: fixed;
+    width: 100%;
+    background:#161d29;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #E8E8E8;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+    
+.medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+   
+}
+
+.right-nav{
+    padding: 8px 15px;
+    float: right;
+}
+.left-nav{
+    padding:  8px 15px;
+    float: left;
+}
+
+
+div.container a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px 5px;
+    position: relative;
+}
+#bottone1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 9px;
+  background: #2b2d56;
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+ }
+ 
+ #bottone1:hover {
+  box-shadow: 7px 5px 56px -14px #C3D900;
+ }
+ 
+ #bottone1:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #C3D900;
+ }
+
+ h4 {
+  
+  border: solid black;
+margin-right: 325px;
+padding:10px 10px 10px 40px;
+border-color: #FFFFF7;
+font-family: Arial, Helvetica, sans-serif;
+
+color:white;
+
+}
+.post1 {
+  border-color: rgb(255, 255, 255);
+  border: thin;
+  margin-left: 350px;
+}
+.row{
+  width:200px;
+  height:200px;
+  float: left;
+  background-image: url('brain.png');
+  background-size:cover;
+  
+  
+}
