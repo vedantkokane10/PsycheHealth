@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+
+  <title>Result</title>
+
+
+</head>
+<body>
+
+      <div class="container" >
+
+        <div id="myNavbar">
+         
+          <ul>
+            <li class="left-nav"><a href="{{ url_for('index') }}"><span class="medium">PsycheHealth</span></a></li>
+            <li class="right-nav"><a href="{{ url_for('logout') }}"><span class="medium">LogOut</span></a></li>
+             <li class="right-nav" ><a href="{{ url_for('blogs') }}"><span class="medium" >Blogs</span></a></li>
+               <li class="right-nav"><a href="{{ url_for('game') }}"><span class="medium">Game</span></a></li>
+            <li class="right-nav"><a href="{{ url_for('contact') }}"><span class="medium">Psychiatrist</span></a></li> 
+          </ul>
+             
+        </div>               
+        <div class="particles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+
+
+                  </div>
+
+                  <div class="but">
+                    <center>
+                      <h2 style="color:#FFFFF7;">
+                        It seems like you are having mental health issues. Please refer these solution for your betterment.
+                      </h2>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    </center>
+                    <center>
+                        <button class="button-13" role="button"  >
+                          <a href="{{ url_for('game') }}" style="color:black">Game</a>
+                        </button>
+                    <br>
+                    <br>
+                    <br>
+                    <button class="button-13" role="button">
+                      <a href="{{ url_for('blogs') }}" style="color:black">Blogs</a>
+                    </button>
+                    </center>
+
+                  </div>
+
+
+                  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

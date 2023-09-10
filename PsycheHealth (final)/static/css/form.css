@@ -1,0 +1,248 @@
+.contain {
+    margin-top: 130px;
+    color:#FFFFF7;
+    padding:0px 25px px 0px;
+
+  
+  }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; }
+  a:active { text-decoration: none; }
+  a{
+    color:#FFFFF7;
+  }
+
+  .container{
+    display: block;
+    background-color: transparent;
+    
+  }
+  .p {
+    padding:15px 25px 45px 25px;
+    border: solid;
+  
+    margin:25px 90px 195px 100px;
+    text-align: center;
+    border-color: #FFFFF7;
+    background-color:transparent;
+    border-radius: 20px;
+  
+  }
+
+  .j {
+    width: 1040px;
+    height: 400px;
+  }
+  button {
+    height: 28px;
+    width: 100px;
+  }
+  *{
+      margin:0 ;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  h2{
+    margin-left: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  h4{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  input{
+    height: 28px;
+  }
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1044%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(35%2c 54%2c 82%2c 1)'%3e%3c/rect%3e%3ccircle r='25.44' cx='1350.87' cy='136.89' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3ccircle r='42.47' cx='1421.39' cy='7.08' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='14.745' cx='759.12' cy='122.66' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/circle%3e%3ccircle r='41.365' cx='261.14' cy='64.85' fill='url(%23SvgjsLinearGradient1047)'%3e%3c/circle%3e%3ccircle r='45.085' cx='330.34' cy='84.24' fill='url(%23SvgjsLinearGradient1048)'%3e%3c/circle%3e%3ccircle r='18.485' cx='742.34' cy='35.69' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/circle%3e%3ccircle r='30.345' cx='80.89' cy='56.59' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='43.26' cx='1306.32' cy='490.95' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1044'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='1299.9899999999998' y1='136.89' x2='1401.7499999999998' y2='136.89' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='729.63' y1='122.66' x2='788.61' y2='122.66' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='178.40999999999997' y1='64.85' x2='343.87' y2='64.85' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1047'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='240.16999999999996' y1='84.24' x2='420.51' y2='84.24' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1048'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='705.37' y1='35.69' x2='779.31' y2='35.69' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1219.8' y1='490.95' x2='1392.84' y2='490.95' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");    
+  }
+  .container{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow:scroll;
+  }
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: #f7fafa;
+  }
+
+  .particles{
+      position: relative;
+      display: flex;
+      z-index: 1;
+      padding: 0.20px;
+  }
+  .particles span {
+      bottom: 500px;
+      width: 30px;
+      height: 30px;
+      background: #4fc3dc;
+      box-shadow: 0 0 0 10px #4fc3dc44,
+      0 0 50px #c76eff,
+      -100px 0 #c76eff,
+      100px 0 #ff2d7599;
+      margin: 0 4px;
+      border-radius: 50%;
+      animation: animate 0s ease infinite;
+      animation-duration: calc(125s/var(--i));
+  
+  }
+  .particles span :nth-child(even){
+  
+      background: #ff2d75;
+      box-shadow: 0 0 0 10px #ff005944,
+      0 0 50px #ff2d75,
+      -100px 0 #9521de,
+      100px 0 #cc7aff;
+  }
+  @keyframes animate {
+  
+      0% {
+          transform:translateY(100vh) scale(0) rotate(0deg) ;
+  
+      }
+      20% {
+          transform:translateY(100vh) scale(1) rotate(0deg) ;
+  
+      }
+      100% {
+          transform:translateY(-5   0vh) scale(0.5) rotate(360deg) ;
+  
+      }
+  }
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 0px  0px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+form {
+    background-color: transparent;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px 30px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+/* Styling Button */
+button {
+    background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#myNavbar{
+    position: fixed;
+    width: 100%;
+    background:#161d29;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #E8E8E8;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+    
+.medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.right-nav{
+    padding: 8px 15px;
+    float: right;
+}
+.left-nav{
+    padding:  8px 15px;
+    float: left;
+}
+
+
+div.container a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 20px;
+    padding: 5px 5px;
+    position: relative;
+}
