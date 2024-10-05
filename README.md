@@ -23,11 +23,3 @@ PsycheHealth is a web application designed to predict mental illnesses using adv
 
 Watch the project demonstration here: [PsycheHealth Demo](https://www.youtube.com/watch?v=VVDInHhMQz4)
 
-### Installation
-
-To run the application locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/psychehealth.git
-
