@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Mental health survey
+	</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/form.css') }}">
+	
+</head>
+
+<body>
+   
+	<!-- Create Form -->
+    <div class="contain">
+         
+
+
+    <div class="p">
+        <h1>Mental health Survey  </h1>
+	<form id="form" action="/predict" method="POST">
+
+        <!---1. question-->
+		<div class="form-control">
+			<label for="education" id="education">
+				What’s your Education level ?
+			</label>
+			<!-- Dropdown options -->
+			<select name="education" id="education">
+				<option value=0>Currently pursuing highSchool</option>
+				<option value=1>Completed highschool</option>
+				<option value=2>Currently pursuing undergraduate
+                </option>
+				<option value=3 >Completed Undergraduate
+                </option>
+                <option value=4>Currently pursuing masters</option>
+				<option value=5>Completed masters</option>
+				<option value=6>Currently pursuing PHD
+                </option>
+				<option value=7 >Completed PHD
+                </option>
+			</select>
+		</div>
+        
+        <!---2. question-->
+		<div class="form-control">
+			<label>
+                Have you noticed a decrease in your ability to concentrate and focus on tasks you need to complete, such as difficulty staying on task, becoming easily distracted, or struggling to remember information you need to recall?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="concentration" id="concentration">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---3. question-->
+		<div class="form-control">
+			<label>
+                Are you currently experiencing symptoms of anxiety, such as excessive worrying, restlessness, irritability, difficulty concentrating, or physical symptoms like rapid heartbeat or sweating?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="Anxious" id="Anxious">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---4. question-->
+        <div class="form-control">
+			<label>
+                Are you currently experiencing symptoms of depression, such as persistent sadness, hopelessness, loss of interest in activities, changes in appetite or sleep patterns, or feelings of worthlessness or guilt?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="depressed" id="depressed">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---5. question-->
+        <div class="form-control">
+			<label>
+                Are you experiencing an increase in overthinking, where your mind becomes preoccupied with repetitive or obsessive thoughts, making it difficult to concentrate on tasks or enjoy activities, and causing distress or anxiety?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="overthink" id="overthink">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---6. question-->
+        <div class="form-control">
+			<label>
+                Have you noticed frequent changes in your mood, such as feeling happy one moment and then feeling sad, irritable, or anxious shortly after, without any apparent reason for the mood shift?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="mood" id="mood">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+
+        <!---7. question-->
+        <div class="form-control">
+			<label>
+                Are you experiencing symptoms of panic, such as sudden and intense feelings of fear or dread, physical sensations like a racing heartbeat, sweating, or difficulty breathing, or a sense of losing control?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="panic" id="panic">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---8. question-->
+        <div class="form-control">
+			<label>
+                Have you noticed yourself engaging in repetitive behaviors, such as checking and rechecking things, counting, or cleaning excessively, that you feel compelled to do, even if they don't make logical sense, and that are interfering with your daily life?	
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="compulsive" id="compulsive">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---9. question-->
+        <div class="form-control">
+			<label>
+                Do you experience fatigue or a lack of energy when starting a task, even if it's something you enjoy, that makes it difficult to get started or complete the task, and that may be accompanied by physical symptoms like muscle aches or headaches?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="tired" id="tired">
+                <option value=1>Yes</option>
+				<option value=0>No</option>
+            </select>
+		</div>
+
+        <!---10. question-->
+        <div class="form-control">
+			<label for="age" id="age">
+				What’s Age group ?
+			</label>
+			<!-- Dropdown options -->
+			<select name="age" id="age">
+				<option value=0>18-29 years</option>
+				<option value=1>30-44 years</option>
+				<option value=2>45-60 years</option>
+				<option value=3 > Greater than 60 years</option>
+			</select>
+		</div>
+
+        <!---11. question-->
+        <div class="form-control">
+			<label>
+                What’s your gender?
+			</label>
+			<!-- Input Type Radio Button -->
+			<select name="gender" id="gender">
+                <option value=1>Male</option>
+				<option value=0>Female</option>
+            </select>
+		</div>
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+	</form>
+
+    <h1>{{result}}</h1>
+    
+    </div>
+</div>
+</body>
+
+</html>
