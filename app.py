@@ -130,7 +130,6 @@ def contact():
 def game():
     return render_template('game.html')
 
-
 @app.route('/blogs')
 def blogs():
     return render_template('blogs.html')
